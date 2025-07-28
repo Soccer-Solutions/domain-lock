@@ -7,25 +7,40 @@
   <title>ESS Academy</title>
   <style>
     body {
-      font-family: sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
       text-align: center;
       padding-top: 5rem;
+      margin: 0;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
     }
     .redirect-button {
-      background: #02b064;
+      background-color: #02b064;
       color: white;
       padding: 1rem 2rem;
       border: none;
       border-radius: 8px;
       font-size: 1.2rem;
       cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .redirect-button:hover {
+      background-color: #029b58;
     }
   </style>
 </head>
 <body>
   <h1>Welcome to ESS Academy</h1>
   <p>Please click below to visit our main website:</p>
-  <a href="https://essa.soccer">
+  <a href="https://essa.soccer" target="_blank" rel="noopener noreferrer">
     <button class="redirect-button">Go to essa.soccer</button>
   </a>
 </body>
